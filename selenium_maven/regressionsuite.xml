@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Regression">
+      <parameter name="browsername" value="chrome" />
+      <parameter name="url" value="http://zero.webappsecurity.com" />
+      <parameter name="reportpath" value="/src/main/java/reports/" />
+      
+   <test name = "AddNewPayee">
+      <parameter name="username" value="username" />
+      <parameter name="password" value="password" />
+      <classes>
+         <class name = "tests.AddNewPayee" />
+      </classes>
+   </test>
+   <test name="MediaLinkVerification">
+   <classes>
+   	<class name="tests.MediaLinksVerfication"/>
+   </classes>
+   </test>
+</suite>  

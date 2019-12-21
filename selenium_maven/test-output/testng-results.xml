@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression" duration-ms="11286" started-at="2019-11-30T12:40:14Z" finished-at="2019-11-30T12:40:25Z">
+    <groups>
+    </groups>
+    <test name="AddNewPayee" duration-ms="7802" started-at="2019-11-30T12:40:14Z" finished-at="2019-11-30T12:40:22Z">
+      <class name="tests.AddNewPayee">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:tests.AddNewPayee@4f7d0008]" name="beforeTest" is-config="true" duration-ms="4317" started-at="2019-11-30T12:40:14Z" finished-at="2019-11-30T12:40:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.AddNewPayee@4f7d0008]" name="beforeMethod" is-config="true" duration-ms="110" started-at="2019-11-30T12:40:19Z" finished-at="2019-11-30T12:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addNewPayee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddNewPayee@4f7d0008]" name="addNewPayee" duration-ms="716" started-at="2019-11-30T12:40:19Z" data-provider="dp" finished-at="2019-11-30T12:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Oliver Byrd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[84, Ajay Chowk, Bikaner - 204957]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12119415161215]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mother]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPayee -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.AddNewPayee@4f7d0008]" name="afterMethod" is-config="true" duration-ms="13" started-at="2019-11-30T12:40:20Z" finished-at="2019-11-30T12:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewPayee status=SUCCESS method=AddNewPayee.addNewPayee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddNewPayee@4f7d0008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.AddNewPayee@4f7d0008]" name="beforeMethod" is-config="true" duration-ms="82" started-at="2019-11-30T12:40:20Z" finished-at="2019-11-30T12:40:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addNewPayee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddNewPayee@4f7d0008]" name="addNewPayee" duration-ms="169" started-at="2019-11-30T12:40:20Z" data-provider="dp" finished-at="2019-11-30T12:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Philip Mooney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[94, Kanika Heights, Hadapsar Delhi - 314957]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12119415161216]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Grand Father]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPayee -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.AddNewPayee@4f7d0008]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-11-30T12:40:20Z" finished-at="2019-11-30T12:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewPayee status=SUCCESS method=AddNewPayee.addNewPayee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddNewPayee@4f7d0008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.AddNewPayee@4f7d0008]" name="beforeMethod" is-config="true" duration-ms="94" started-at="2019-11-30T12:40:20Z" finished-at="2019-11-30T12:40:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addNewPayee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddNewPayee@4f7d0008]" name="addNewPayee" duration-ms="138" started-at="2019-11-30T12:40:20Z" data-provider="dp" finished-at="2019-11-30T12:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delilah Cook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[66, Narayan Society, Preshita Chowk Meerut - 170233]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12119415161217]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Father]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPayee -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.AddNewPayee@4f7d0008]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-11-30T12:40:20Z" finished-at="2019-11-30T12:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewPayee status=SUCCESS method=AddNewPayee.addNewPayee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddNewPayee@4f7d0008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.AddNewPayee@4f7d0008]" name="beforeMethod" is-config="true" duration-ms="95" started-at="2019-11-30T12:40:20Z" finished-at="2019-11-30T12:40:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addNewPayee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddNewPayee@4f7d0008]" name="addNewPayee" duration-ms="106" started-at="2019-11-30T12:40:20Z" data-provider="dp" finished-at="2019-11-30T12:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Keyla Stark]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[65, Peter Villas, LataGunj Jabalpur - 424539]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12119415161218]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Brother]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPayee -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.AddNewPayee@4f7d0008]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-11-30T12:40:20Z" finished-at="2019-11-30T12:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addNewPayee status=SUCCESS method=AddNewPayee.addNewPayee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AddNewPayee@4f7d0008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.AddNewPayee@4f7d0008]" name="beforeMethod" is-config="true" duration-ms="71" started-at="2019-11-30T12:40:20Z" finished-at="2019-11-30T12:40:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="test02()[pri:0, instance:tests.AddNewPayee@4f7d0008]" name="test02" duration-ms="2" started-at="2019-11-30T12:40:20Z" finished-at="2019-11-30T12:40:20Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [2] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [2] but found [1]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at tests.AddNewPayee.test02(AddNewPayee.java:58)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.AddNewPayee@4f7d0008]" name="afterMethod" is-config="true" duration-ms="455" started-at="2019-11-30T12:40:20Z" finished-at="2019-11-30T12:40:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test02 status=FAILURE method=AddNewPayee.test02()[pri:0, instance:tests.AddNewPayee@4f7d0008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:tests.AddNewPayee@4f7d0008]" name="afterTest" is-config="true" duration-ms="804" started-at="2019-11-30T12:40:21Z" finished-at="2019-11-30T12:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.AddNewPayee -->
+    </test> <!-- AddNewPayee -->
+    <test name="MediaLinkVerification" duration-ms="3411" started-at="2019-11-30T12:40:22Z" finished-at="2019-11-30T12:40:25Z">
+      <class name="tests.MediaLinksVerfication">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.MediaLinksVerfication@5649fd9b]" name="beforeSuite" is-config="true" duration-ms="7381" started-at="2019-11-30T12:40:07Z" finished-at="2019-11-30T12:40:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://zero.webappsecurity.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[/src/main/java/reports/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="f()[pri:0, instance:tests.MediaLinksVerfication@5649fd9b]" name="f" duration-ms="3408" started-at="2019-11-30T12:40:22Z" finished-at="2019-11-30T12:40:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.MediaLinksVerfication@5649fd9b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-11-30T12:40:25Z" finished-at="2019-11-30T12:40:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f status=SUCCESS method=MediaLinksVerfication.f()[pri:0, instance:tests.MediaLinksVerfication@5649fd9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.MediaLinksVerfication@5649fd9b]" name="afterSuite" is-config="true" duration-ms="1709" started-at="2019-11-30T12:40:25Z" finished-at="2019-11-30T12:40:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.MediaLinksVerfication -->
+    </test> <!-- MediaLinkVerification -->
+  </suite> <!-- Regression -->
+</testng-results>
